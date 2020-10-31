@@ -6,7 +6,7 @@ if [ `expr $YEAR % 4` -eq 0 ]
 then
 	if [ $DAY -gt 59 ]
 	then
-		$DAY+=1
+		$DAY=$DAY+1
 	fi
 fi
 
