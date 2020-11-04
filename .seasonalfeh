@@ -6,46 +6,46 @@ if [ `expr $YEAR % 4` -eq 0 ]
 then
 	if [ $DAY -gt 59 ]
 	then
-		$DAY+=1
+		((DAY++))
 	fi
 fi
 
 if [ $DAY -eq 1 ]
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/newyears.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/newyears.jpg'
 elif [ $DAY -eq 45 ]
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/valentines.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/valentines.jpg'
 elif [ $DAY -eq 73 ]
 then 
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/pi.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/pi.jpg'
 elif [ $DAY -eq 76 ]
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/saintpatricks.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/saintpatricks.jpg'
 elif [ $DAY -eq 125 ]
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/cincodemayo.jpg'
-elif [ $DAY -eq 155 ]	
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/cincodemayo.jpg'
+elif [ $DAY -eq 185 ]	
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/america.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/america.jpg'
 elif [ $DAY -eq 304 ]
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/halloween.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/halloween.jpg'
 elif [ $DAY -eq 359 ]
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/christmas.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/christmas.jpg'
 elif [ $DAY -le 78 ]
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/winter.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/winter.jpg'
 elif [ $DAY -le 171 ]	
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/spring.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/spring.jpg'
 elif [ $DAY -le 265 ]	
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/summer.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/summer.jpg'
 elif [ $DAY -le 354 ]	
 then
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/autumn.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/autumn.jpg'
 else
-	feh --bg-scale '/home/shichimenchou/Media/Pictures/Desktops/winter.jpg'
+	feh --bg-scale '/home/hachimenchou/Data/Pictures/Desktops/winter.jpg'
 fi
